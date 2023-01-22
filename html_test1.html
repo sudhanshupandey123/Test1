@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <title>Web_tect_test1</title>
+        <style>
+            body{
+                margin: 80px 0 0 550px;
+                background-image: url(https://wallpapercave.com/wp/wp2642163.jpg);
+                background-size: cover;
+            }
+            form{
+                border: 2px solid black;
+                width: fit-content;
+                background: linear-gradient(45deg,skyblue,lightpink,lightblue);
+            }
+            .dt{
+                width: 55px;
+            }
+            #mnth{
+                margin-left: 29px;
+            }
+            #yr{
+                margin-left: 14px;
+            }
+            .add{
+                width: 85px;
+            }
+            .add1{
+                font-size: 15px;
+            }
+            #st{
+                margin-left: 57px;
+            }
+            #ct{
+                margin-left: -2px;
+            }
+            #cd{
+                width: 173px;
+            }
+            #butt{
+                margin-top: 10px;
+                margin-left: 105px;
+            }
+            #hed{
+                text-align: center;
+            }
+            button:hover{
+                border-top-left-radius: 45px;
+                border-bottom-right-radius: 45px;
+                background-color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr><th colspan="2">Application</th></tr>
+                <tr><td colspan="2"><h6 id="hed">please fill out the application form carefully</h3></td></tr>
+                <tr><td>Full Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Father Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Mother Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" class="dt">
+                    <input type="month" class="dt">
+                <input type="date" class="dt" placeholder="yyyy"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><label>Day</label>
+                        <label id="mnth">Month</label>
+                        <label id="yr">Year</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><select>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>E-Mail Address</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td></td>
+                </tr>
+                <tr><td></td>
+                <td><input type="text" class="add">
+                <input type="text" class="add"></td></tr>
+                <tr>
+                    <td></td>
+                    <td><label class="add1">Street Number</label>
+                        <label class="add1">Street Line2</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" class="add">
+                    <input type="text" class=add></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><label class="add1">City</label>
+                    <label id="st" class="add1">State Province</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="number" class="add">
+                    <input type="text" class="add"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><label class="add1">Postal/ZipCode</label>
+                    <label class="add1" id="ct">Country</label></td>
+                </tr>
+                <tr>
+                    <td>Types of Education</td>
+                    <td><select>
+                        <option>--Select--</option>
+                    <option>B-Tech</option>
+                     <option>BE</option>
+                     <option>ECE</option>
+                    <option>EE</option></select></td>
+                </tr>
+                <tr>
+                    <td>Course Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Course Description</td>
+                    <td><textarea id="cd"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="butt">Apply Now</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
